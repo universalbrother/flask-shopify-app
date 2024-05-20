@@ -74,6 +74,7 @@ The following endpoints are available in the application:
 ## Notes
 
 - If at any point it throws an error please restart the kernel and run the cells sequentialy again.
+- **Order #1028 is not a real order** :))
 
 ## Project Structure
 
