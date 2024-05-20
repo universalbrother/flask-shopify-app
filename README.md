@@ -1,10 +1,6 @@
 # flask-shopify-app
 
-This project is a Flask application that simulates handling Shopify data to demonstrate the integration of the Shopify API and a mocked Shipbob API request.
-
-## Setup
-
-Follow these steps to set up and run the application.
+To run the application:
 
 ### 1. Clone the Repository
 
