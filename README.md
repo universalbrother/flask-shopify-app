@@ -4,9 +4,8 @@ To run the application:
 
 ### 1. Clone the Repository
 
-Clone the repository to your local machine:
+Clone the repository to local machine:
 
-```bash
 git clone https://github.com/universalbrother/flask-shopify-app.git
 cd flask-shopify-app
 
@@ -16,27 +15,19 @@ Create and activate a virtual environment:
 
 #### On Windows:
 
-```bash
 python -m venv venv
 venv\Scripts\activate
-
-#### On mac and linux:
-
-python3 -m venv venv
-source venv/bin/activate
 
 ### 3. Install Required Packages
 
 Install the required packages using `pip`:
 
-```bash
 pip install Flask requests notebook
 
 ### 4. Open the Jupyter Notebook
 
 Open the Jupyter Notebook to run the Flask application:
 
-```bash
 jupyter notebook flask_shopify_clean.ipynb
 
 ### 5. Run All Cells
@@ -55,26 +46,26 @@ The following endpoints are available in the application:
 
 ### Example Usage
 
-1. **Fetch Number of Orders**
+1. Fetch Number of Orders
 
    Navigate to `http://127.0.0.1:5000/orders` to get the number of orders in the Shopify store.
 
-2. **Fetch Order Details**
+2. Fetch Order Details
 
    Navigate to `http://127.0.0.1:5000/order/<order_id>` (replace `<order_id>` with a valid order ID) to fetch the product names and inventory status for that order.
 
-3. **Mock Shipbob API Request**
+3. Mock Shipbob API Request
 
    Navigate to `http://127.0.0.1:5000/mock_shipbob_order` to print a mocked Shipbob API request to the console.
 
-4. **List Orders**
+4. List Orders
 
    Navigate to `http://127.0.0.1:5000/list_orders` to list all order IDs.
 
 ## Notes
 
 - If at any point it throws an error please restart the kernel and run the cells sequentialy again.
-- **Order #1028 is not a real order** :))
+- Order 1028 is not a real order :))
 
 ## Project Structure
 
