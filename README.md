@@ -40,32 +40,32 @@ The following endpoints are available in the application:
 
 - `/` - Home route with a welcome message.
 - `/orders` - Fetch the number of orders.
-- `/order/<order_id>` - Fetch product names and inventory status for a specific order ID.
-- `/mock_shipbob_order` - Print a mocked Shipbob API request to the console.
+- `/order_by_name/1028` - Fetch product names and inventory status for order #1028 by name.
+- `/mock_shipbob_order/1028` - Print a mocked Shipbob API request based on order #1028 to the console.
 - `/list_orders` - List all order IDs.
 
 ### Example Usage
 
 1. Fetch Number of Orders
 
-   Navigate to `http://127.0.0.1:5000/orders` to get the number of orders in the Shopify store.
+   Navigate to http://127.0.0.1:5000/orders to get the number of orders in the Shopify store.
 
 2. Fetch Order Details
 
-   Navigate to `http://127.0.0.1:5000/order/<order_id>` (replace `<order_id>` with a valid order ID) to fetch the product names and inventory status for that order.
+   Navigate to http://127.0.0.1:5000/order_by_name/1028 to fetch the product names and inventory status for order #1028.
 
 3. Mock Shipbob API Request
 
-   Navigate to `http://127.0.0.1:5000/mock_shipbob_order` to print a mocked Shipbob API request to the console.
+   Navigate to http://127.0.0.1:5000/mock_shipbob_order/1028 to print a mocked Shipbob API request to the console.
 
 4. List Orders
 
-   Navigate to `http://127.0.0.1:5000/list_orders` to list all order IDs.
+   Navigate to http://127.0.0.1:5000/list_orders to list all order IDs.
 
 ## Notes
 
 - If at any point it throws an error please restart the kernel and run the cells sequentialy again.
-- Order 1028 is not a real order :))
+- Order 1028 is not a real order :)) Nope, I was wrong. I searched by unique id instead of name :))
 
 ## Project Structure
 
